@@ -45,3 +45,13 @@ Fixed Size Data - Arithmetic Exercises
    
 ;Exercise 5
 
+(require 2htdp/image)
+
+(overlay/xy (triangle 40 "solid" "dark green") -30 -15
+ (overlay (rectangle 10 50 "solid" "brown")
+          (empty-scene 100 100)))
+          
+
+;Exercise 6
+
+
