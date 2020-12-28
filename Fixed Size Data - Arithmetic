@@ -71,3 +71,22 @@ Fixed Size Data - Arithmetic Exercises
 
 ;Exercise 8 
 
+(require 2htdp/image)
+
+
+
+(define cat (rectangle 20 10 "solid" "green"))
+
+(if (= (image-width cat) (image-height cat)) "sqaure"
+       (if (> (image-height cat) (image-width cat)) "tall" "wide"))
+
+
+;Exercise 9
+
+(require 2htdp/image)
+
+(define in 24)
+
+(if (number? in (=> 0))
+    (- in 1)
+    (if 
