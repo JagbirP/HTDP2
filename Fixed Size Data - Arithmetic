@@ -85,8 +85,14 @@ Fixed Size Data - Arithmetic Exercises
 
 (require 2htdp/image)
 
-(define in 24)
+(define in [insert definition])
 
-(if (number? in (=> 0))
-    (- in 1)
-    (if 
+(if (number? in)
+     (if (<= in 0) in (- in 1))
+     (if (image? in)
+         (* (image-width) (image-height))
+         (if (and #t in) 10 20)))
+         
+
+;Exercise 11
+
