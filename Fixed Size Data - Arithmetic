@@ -92,7 +92,5 @@ Fixed Size Data - Arithmetic Exercises
      (if (image? in)
          (* (image-width) (image-height))
          (if (and #t in) 10 20)))
-         
-
-;Exercise 11
+        
 
