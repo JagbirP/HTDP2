@@ -20,3 +20,20 @@ Exercise 12:
 
 Exercise 13:
 
+(define (string-first str) (substring str 0 1))
+
+
+Exercise 14:
+
+(define (string-last str)
+  (substring str (- (string-length str) 1) (string-length str)))
+  
+  
+Exercise 15:
+
+(define (==> sunny friday)
+  (if (or friday (not sunny)) #true #false))
+
+
+Exercise 16:
+
