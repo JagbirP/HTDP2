@@ -1,9 +1,0 @@
-Fixed Size Data - Functions and Programs
-
-
-Exercise 11;
-
-(define (distance_to_origin x y) (sqrt (+ (sqr x) (sqr y))))
-
-
-Exercise 12;

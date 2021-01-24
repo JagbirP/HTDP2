@@ -1,0 +1,22 @@
+Fixed Size Data - Functions and Programs
+
+
+Exercise 11:
+
+(define (distance_to_origin x y) (sqrt (+ (sqr x) (sqr y))))
+
+
+Exercise 12:
+
+;cvolume
+
+(define (cvolume x) (expt x 3))
+
+
+;csurface
+
+(define (csurface x) (* 6 x))
+
+
+Exercise 13:
+
